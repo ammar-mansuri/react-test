@@ -1,0 +1,72 @@
+
+.searchBar {
+    font-size: 20px;
+    margin-left: 12px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.contentCard {
+    width: 300px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    vertical-align: top;
+}
+
+.thumbnail {
+    width: 300px;
+    /*height: 300px;*/
+    /*object-fit: fill;*/
+    object-position: top;
+    display: block;
+}
+
+.thumbnailDiv {
+    margin-bottom: 12px;
+}
+
+p {
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.profilePictureDiv {
+    display: inline-block;
+    width: 50px;
+    vertical-align: top;
+}
+
+.pictureLogo {
+    width: 40px;
+    border: none;
+    border-radius: 25px;
+    /*display: inline-block;*/
+}
+
+.contentDetailsDiv {
+    display: inline-block;
+    width: 250px;
+}
+
+.title {
+    font-size: 14px;
+    font-weight: 550;
+    line-height: 20px;
+    /*margin-left: 5px;*/
+    /*width: 300px;*/
+    margin-bottom: 11px;
+}
+
+.creator,
+.summary {
+    font-size: 12px;
+    /*margin-left: 15px;*/
+    /*display: inline-block;*/
+    color: rgb(96, 96, 96);
+}
+
+.creator {
+    margin-bottom: 5px;
+}

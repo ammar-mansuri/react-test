@@ -1,0 +1,133 @@
+
+.subscribeButton {
+    background-color: red;
+    border: none;
+    /*height: 36px;
+    width: 105px;*/
+    padding: 10px 16px; /*(top,bottom + left,right)*/
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: opacity 1s;
+    vertical-align: top;
+}
+
+.subscribeButton:hover {
+    opacity: 0.8;
+}
+
+.subscribeButton:active {
+    opacity: 0.5;
+}
+
+
+.joinButton {
+    background-color: white;
+    border: 1px solid rgb(41, 118, 211);
+    border-radius: 3px;
+    /*height: 36px;
+    width: 65px;*/
+    padding: 9px 16px;
+    color: rgb(41, 118, 211);
+    cursor: pointer;
+    margin-left: 10px;
+    transition: opacity 1s, background-color 1s, color 1s;
+    vertical-align: top;
+}
+
+.joinButton:hover {
+    background-color: rgb(41, 118, 211);
+    color: white;
+}
+
+.joinButton:active {
+    opacity: 0.8;
+}
+
+.tweetButton {
+    margin-left: 10px;
+    background-color: rgb(2, 158, 255);
+    border-radius: 18px;
+    border: none;
+    color: white;
+    /*height: 36px;
+    width: 74px;*/
+    padding: 10px 16px;
+    cursor: pointer;
+    transition: opacity 1s, box-shadow 1s;
+    vertical-align: top;
+}
+
+
+.tweetButton:hover {
+    opacity: 0.8;
+    box-shadow: 5px 5px 10px rgba(2, 158, 255, 0.6); /*hori ver blur rgba(color+opactiy)*/
+}
+
+.tweetButton:active {
+    opacity: 0.5;
+}
+
+/*
+-BoxModel
+    Margin: Spaced outside an element
+    Padding: Spaces inside an element
+
+*/
+
+.videoTitle {
+    margin-top: 30px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 18px;
+    width: 280px;
+    line-height: 26px;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 55px !important;
+}
+
+p {
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.videoStats {
+
+    font-size: 18px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 20px;
+}
+
+.name {
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 20px;
+}
+
+.content {
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    width: 280px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+.shop {
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+.shop:hover {
+    text-decoration: underline;
+}
+
+.footerBanner {
+    margin-bottom: 20px;
+    font-size: 14px;
+    background-color: rgb(227, 65, 64);
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
