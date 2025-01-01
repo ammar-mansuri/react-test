@@ -1,4 +1,5 @@
-import classes from './OptionB.module.css'
+import classes from './OptionBHeaderMiddleMenu.module.css'
+
 
 export const SearchBar = () => {
     return (

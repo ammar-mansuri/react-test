@@ -3,6 +3,6 @@ import classes from './OptionB.module.css'
 
 export const PictureLogo = () => {
     return (
-        <img className={classes.pictureLogo} src={faker.image.avatar()}/>
+        <img className={classes.pictureLogo} src={faker.image.avatar()} alt={'profilePicture'}/>
     );
 }

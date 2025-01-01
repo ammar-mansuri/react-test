@@ -10,11 +10,13 @@ export const ContentCard = () => {
         <div className={classes.contentCard}>
             <div className={classes.thumbnailDiv}>
                 <ThumbnailContentCard/>
+                <div className={classes.timePosition}>14:00</div>
             </div>
-            <div>
+            <div className={classes.detailsGrid}>
                 <div className={classes.profilePictureDiv}>
                     <PictureLogo/>
                 </div>
+
                 <div className={classes.contentDetailsDiv}>
                     <ContentTitle/>
                     <CreatorName/>

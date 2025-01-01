@@ -1,13 +1,13 @@
-import {SearchBar} from "../../components/optionB/SearchBar";
-import {ContentCard} from "../../components/optionB/ContentCard";
+import {ContentGrid} from "../../components/optionB/ContentGrid";
+import {Header} from "../../components/optionB/header/Header";
+import {Sidebar} from "../../components/optionB/sidebar/Sidebar";
 
 export function OptionBPage() {
     return (
-        <>
-            <SearchBar/>
-            <ContentCard/>
-            <ContentCard/>
-            <ContentCard/>
-        </>
+        <div>
+            <Header/>
+            <Sidebar/>
+            <ContentGrid/>
+        </div>
     );
 }

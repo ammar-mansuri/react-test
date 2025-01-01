@@ -1,0 +1,34 @@
+.uploadLogo {
+    height: 24px;
+}
+
+.appsLogo {
+    height: 24px;
+}
+
+.notificationsDiv {
+    position: relative;
+}
+
+.notificationsCount {
+
+    background-color: rgb(200, 0, 0);
+    border-radius: 10px;
+    color: white;
+    font-size: 11px;
+    font-weight: 500;
+    padding: 1px 6px;
+
+    position: absolute;
+    top: -5px;
+    right: -7px;
+}
+
+.notificationsLogo {
+    height: 24px;
+}
+
+.profileIconLogo {
+    height: 32px;
+    border-radius: 16px;
+}

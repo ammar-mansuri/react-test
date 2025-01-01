@@ -131,3 +131,50 @@ p {
     text-align: center;
     padding: 15px;
 }
+
+.grid1Div {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    gap: 10px;
+}
+
+.grid1Div1 {
+    background-color: aqua;
+}
+
+.grid1Div2 {
+    background-color: pink;
+}
+
+.grid1Div3 {
+    background-color: teal;
+}
+
+
+.grid2Div {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 100px 100px 200px;
+    gap: 10px;
+}
+
+.grid3Div {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.flexContainer1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.flexDiv1 {
+    background-color: pink;
+}
+
+.flexDiv2 {
+    background-color: cornflowerblue;
+}

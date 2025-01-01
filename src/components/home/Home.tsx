@@ -17,7 +17,7 @@ export function Home() {
                 </AppShell.Navbar>
                 */}
                 <AppShell.Main pt='xl'>
-                    <Box mt='md' mb='md'>
+                    <Box ml='xs' mr='xs' mt='xs' mb='xs'>
                         <Outlet/>
                     </Box>
                 </AppShell.Main>

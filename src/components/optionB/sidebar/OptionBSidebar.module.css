@@ -1,0 +1,32 @@
+.sidebarMain {
+    position: fixed;
+    width: 72px;
+    top: 90px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    z-index: 200;
+    padding-top: 15px;
+}
+
+.sideMenuLinks {
+    height: 74px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.sideMenuLinks:hover {
+    background-color: rgb(235, 235, 235);
+}
+
+.sideMenuLinks img {
+    height: 24px;
+}
+
+.sideMenuLinks p {
+    margin-top: 4px;
+    font-size: 10px;
+}
